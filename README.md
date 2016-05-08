@@ -29,7 +29,7 @@ Then `git push dokku master`.
 
 Visit `http://my-name.warpcannon.net` in the browser (replacing `my-name` with your name).
 
-You should see page letting you know it worked. Congrats!
+You should see a page letting you know it worked. Congrats! 🎉
 
 ### Other apps
 What about apps that aren't static, like Python or Node.js apps? Just [find the relevant buildpack](https://github.com/dokku/) and set up your project to work with it. In many cases, all you will need is a `Procfile`. Make a file called `Procfile` in the root of your app, and make it say:
