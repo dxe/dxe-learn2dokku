@@ -23,11 +23,11 @@ First, clone this repo. Make sure your ssh key has been [added to Dokku](http://
 
 Next, open your terminal, `cd` into this directory, and add Dokku as a git remote. Replace `my-name` with your first and last name.
 
-    git remote add dokku dokku@warpcannon.net:my-name
+    git remote add dokku dokku@dxetech.org:my-name
 
 Then `git push dokku master`.
 
-Visit `http://my-name.warpcannon.net` in the browser (replacing `my-name` with your name).
+Visit `http://my-name.dxetech.org` in the browser (replacing `my-name` with your name).
 
 You should see a page letting you know it worked. Congrats! 🎉
 
@@ -51,11 +51,11 @@ Read the [Dokku docs](http://dokku.viewdocs.io/dokku/) to learn more. If you're 
 ### Shell commands
 You can also run some Dokku shell commands to look around. To see a list of apps on the server, run:
 
-    ssh dokku@warpcannon.net apps
+    ssh dokku@dxetech.org apps
 
 To see all of your options, run:
 
-    ssh dokku@warpcannon.net
+    ssh dokku@dxetech.org
 
 License
 =======
